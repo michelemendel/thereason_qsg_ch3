@@ -1,0 +1,22 @@
+{
+  "name": "reasonml-quick-start-guide_ch3",
+  "reason": {
+    "react-jsx": 2
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [{
+    "module": "es6"
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3,
+  "warnings": {
+    "error": "+5+8"
+  }
+}
