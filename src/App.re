@@ -49,7 +49,6 @@ let make = _children => {
         ReasonReact.NoUpdate;
       };
     | TouchMove(clientX) =>
-      Js.log2("Move", clientX);
       if (state.isOpen) {
         ReasonReact.Update({
           ...state,
@@ -60,7 +59,7 @@ let make = _children => {
         });
       } else {
         ReasonReact.NoUpdate;
-      };
+      }
     | TouchEnd =>
       if (state.isOpen) {
         let (x, t) =
